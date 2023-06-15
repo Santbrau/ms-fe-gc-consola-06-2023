@@ -11,7 +11,6 @@ body {
 
 .mitad-superior {
   margin: 0 auto;
-  background-color: rgb(190, 18, 18);
   background: linear-gradient(to bottom right, rgb(190, 18, 18), rgb(153, 17, 17));
   width: 475px;
   height: 425px;
@@ -25,7 +24,7 @@ body {
 .pantallanegra {
   margin: 0 auto;
   position: relative;
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(19, 19, 19);
   width: 410px;
   height: 320px;
   top: 45px;
@@ -36,6 +35,17 @@ body {
   border-right: 5px solid rgb(153, 17, 17);
 }
 
+.gameboy {
+  background-image: url(./images/Gameboy_advance_SP_logo.svg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  position: relative;
+  top: 290px;
+  width: 190px;
+  height: 20px;
+}
+
 .pantallaverde {
   margin: 0 auto;
   position: relative;
@@ -44,6 +54,13 @@ body {
   height: 270px;
   bottom: 272px;
   border-radius: 2px;
+}
+
+.pantallaverde:hover {
+  background-image: url(./images/desktop-wallpaper-pokemon-firered-and-leafgreen.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: end;
 }
 
 .goma1 {
@@ -200,7 +217,7 @@ body {
   }
   
   .mitad-inferior {
-    background-color: rgb(190, 18, 18);
+    background: linear-gradient(to top, rgb(190, 18, 18), rgb(155, 16, 16));
     margin: auto;
     width: 465px;
     height: 430px;
@@ -212,4 +229,366 @@ body {
     border-bottom-color: 1px rgba(24, 1, 1, 0.788);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.623);
   }
+
+  .cruceta {
+    background-color: rgba(145, 14, 14, 0.514);
+    border: 9px solid rgba(124, 12, 12, 0.507);
+    border-left: 9px solid rgba(126, 24, 24, 0.363);
+    border-right: 9px solid rgba(128, 24, 24, 0.363);
+    margin: auto;
+    position: relative;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    top: 100px;
+    right: 120px;
+  }
+
+  .grid-cruceta {
+    margin: auto;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100px;
+    height: 100px;
+    top: 15px;
+  }
+
+  .grid-item2, .grid-item4, .grid-item5, 
+  .grid-item6, .grid-item8 {
+    background-color: rgb(54, 54, 54);
+    border-radius: 1px;
+  }
   
+  .grid-item2 {
+    border-radius: 5px 5px 0px 0px;
+    border-top: 2px solid rgba(0, 0, 0, 0.507);
+    border-left: 2px solid rgba(0, 0, 0, 0.507);
+    border-right: 2px solid rgba(0, 0, 0, 0.507);
+  }
+
+  .grid-item4 {
+    border-radius: 5px 0px 0px 5px;
+    border-top: 2px solid rgba(0, 0, 0, 0.507);
+    border-left: 3px solid rgba(0, 0, 0, 0.507);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.507);
+  }
+
+  .circulo {
+    background-color: rgba(61, 61, 61, 0.267) ;
+    border-left: 2px solid rgba(59, 59, 59, 0.418);
+    border-right: 2px solid rgba(59, 59, 59, 0.418);
+    margin: auto;
+    position: relative;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .grid-item6 {
+    border-radius: 0px 5px 5px 0px;
+    border-top: 2px solid rgba(0, 0, 0, 0.507);
+    border-right: 3px solid rgba(0, 0, 0, 0.507);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.507);
+  }
+
+  .grid-item8 {
+    border-radius: 0px 0px 5px 5px;
+    border-left: 3px solid rgba(0, 0, 0, 0.507);
+    border-right: 3px solid rgba(0, 0, 0, 0.507);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.507);
+  }
+
+  .circulo-botonluz {
+    margin: auto;
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid rgba(92, 7, 7, 0.384);
+    border-top: 5px solid rgba(129, 12, 12, 0.432);
+    width: 30px;
+    height: 30px;
+    bottom: 100px
+  }
+
+  .botonluz {
+    background: linear-gradient(to right, rgb(61, 61, 61), rgb(73, 73, 73));
+    margin: auto;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.575);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.575);
+    width: 27px;
+    height: 27px;
+  }
+
+  .ab {
+    background-color: rgba(145, 14, 14, 0.514);
+    margin: auto;
+    width: 150px;
+    height: 70px;
+    position: relative;
+    border-radius: 50px 50px 50px 50px;
+    border: 9px solid rgba(124, 12, 12, 0.507);
+    rotate: 165deg;
+    left: 105px;
+    bottom: 60px;
+  }
+
+  .boton-b {
+    background: linear-gradient(to right, rgb(61, 61, 61), rgb(73, 73, 73));
+    margin: auto;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.575);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.575);
+    border-left: 3px solid rgba(0, 0, 0, 0.575);
+    width: 45px;
+    height: 45px;
+    top: 10px;
+    left: 40px;
+    rotate: 195deg;
+  }
+
+  .b {
+    text-align: center;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    top: 8px;
+    color: rgba(41, 41, 41, 0.801) ;
+  }
+
+  .boton-a {
+    background: linear-gradient(to right, rgb(61, 61, 61), rgb(73, 73, 73));
+    margin: auto;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.575);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.575);
+    border-left: 3px solid rgba(0, 0, 0, 0.575);
+    width: 45px;
+    height: 45px;
+    bottom: 40px;
+    right: 40px;
+    rotate: 195deg;
+  }
+
+  .a {
+    text-align: center;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    top: 7px;
+    width: 45px;
+    height: 45px;
+    color: rgba(41, 41, 41, 0.801) ;
+  }
+
+  .luzverde {
+    background: linear-gradient(to right, rgb(114, 223, 25), rgb(60, 168, 18));
+    margin: auto;
+    position: relative;
+    width: 12px;
+    height: 10px;
+    border-top: 2px solid rgba(0, 0, 0, 0.842);
+    border-left: 2px solid rgba(0, 0, 0, 0.829);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.836);
+    bottom: 220px;
+    left: 228px;
+  }
+
+  .luzapagada {
+    background: linear-gradient(to right, rgb(61, 61, 61), rgb(73, 73, 73));
+    margin: auto;
+    position: relative;
+    width: 12px;
+    height: 10px;
+    border-top: 2px solid rgba(0, 0, 0, 0.842);
+    border-left: 2px solid rgba(0, 0, 0, 0.829);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.836);
+    bottom: 203px;
+    left: 228px;
+  }
+
+  .altavoz{
+    margin: auto;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 80px;
+    height: 80px;
+    bottom: 60px;
+    right: 10px;
+    grid-gap: 17px;
+  }
+
+  .gridaltavoz1 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 48, 48)50%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(41, 41, 41, 0.904);
+  }
+
+  .gridaltavoz2 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 48, 48)50%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(41, 41, 41, 0.904);
+  }
+
+  .gridaltavoz3 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 48, 48)50%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(41, 41, 41, 0.904);
+  }
+
+  .gridaltavoz4 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 48, 48)50%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(41, 41, 41, 0.904);
+  }
+
+  .gridaltavoz5 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 48, 48)50%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(41, 41, 41, 0.904);
+  }
+
+  .gridaltavoz6 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 48, 48)70%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(41, 41, 41, 0.904);
+  }
+
+  .gridaltavoz7 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 48, 48)70%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(41, 41, 41, 0.904);
+  }
+
+  .gridaltavoz8 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 48, 48)50%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(41, 41, 41, 0.904);
+  }
+
+  .gridaltavoz9 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 48, 48)50%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(41, 41, 41, 0.904);
+  }
+
+  .gridaltavoz10 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 48, 48)70%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(41, 41, 41, 0.904);
+  }
+
+  .gridaltavoz11 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 48, 48)70%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(41, 41, 41, 0.904);
+  }
+
+  .gridaltavoz12 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 48, 48)50%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(41, 41, 41, 0.904);
+  }
+
+  .gridaltavoz13 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 48, 48)50%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(41, 41, 41, 0.904);
+  }
+
+  .gridaltavoz14 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 48, 48)50%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(41, 41, 41, 0.904);
+  }
+
+  .gridaltavoz15 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 48, 48)50%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(41, 41, 41, 0.904);
+  }
+
+  .gridaltavoz16 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 48, 48)50%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(41, 41, 41, 0.904);
+  }
+
+  .select {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: -1.6px;
+    color: rgb(124, 12, 12);
+    font-size: 20px;
+    margin: auto;
+    position: relative;
+    left: 150px;
+    bottom: 55px
+  }
+
+  .start {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: -1.6px;
+    color: rgb(124, 12, 12);
+    font-size: 20px;
+    margin: auto;
+    position: relative;
+    left: 246px;
+    bottom: 79px
+  }
+
+  .circulo-botoncito1 {
+    margin: auto;
+    position: relative;
+    border-radius: 50%;
+    border: 10px solid rgba(105, 9, 9, 0.384);
+    border-top: 10px solid rgba(87, 9, 9, 0.432);
+    border-bottom: 10px solid rgba(87, 9, 9, 0.432);
+    width: 40px;
+    height: 40px;
+    bottom: 75px;
+    right: 60px;
+  }
+
+.botoncito1 {
+  background: linear-gradient(to right, rgb(61, 61, 61), rgb(73, 73, 73));
+  margin: auto;
+  position: relative;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.575);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.575);
+  width: 27px;
+  height: 27px;
+  top: 4px;
+  }
+
+  .circulo-botoncito2 {
+    margin: auto;
+    position: relative;
+    border-radius: 50%;
+    border: 10px solid rgba(105, 9, 9, 0.384);
+    border-top: 10px solid rgba(87, 9, 9, 0.432);
+    border-bottom: 10px solid rgba(87, 9, 9, 0.432);
+    width: 40px;
+    height: 40px;
+    bottom: 135px;
+    left: 35px;
+  }
+
+.botoncito2 {
+  background: linear-gradient(to right, rgb(61, 61, 61), rgb(73, 73, 73));
+  margin: auto;
+  position: relative;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.575);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.575);
+  width: 27px;
+  height: 27px;
+  top: 4px;
+  }
+
