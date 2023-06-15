@@ -1,0 +1,215 @@
+body {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 80vw;
+  height: 100vh;
+  margin-top: 1vh;
+}
+
+.mitad-superior {
+  margin: 0 auto;
+  background-color: rgb(190, 18, 18);
+  background: linear-gradient(to bottom right, rgb(190, 18, 18), rgb(153, 17, 17));
+  width: 475px;
+  height: 425px;
+  border-radius: 30px 30px 15px 15px;
+  border: 2.5px solid rgb(134, 0, 0);
+  border-top-color: rgb(155, 15, 15);
+  border-bottom-color: rgba(24, 1, 1, 0.664);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+}
+
+.pantallanegra {
+  margin: 0 auto;
+  position: relative;
+  background-color: rgb(27, 27, 27);
+  width: 410px;
+  height: 320px;
+  top: 45px;
+  border-radius: 10px;
+  border-top: 5px solid rgb(116, 12, 12);
+  border-left: 5px solid rgb(228, 13, 13);
+  border-bottom: 5px solid rgb(112, 11, 11);
+  border-right: 5px solid rgb(153, 17, 17);
+}
+
+.pantallaverde {
+  margin: 0 auto;
+  position: relative;
+  background: linear-gradient(to bottom right, rgb(97, 117, 95), rgb(36, 44, 35));
+  width: 373px;
+  height: 270px;
+  bottom: 272px;
+  border-radius: 2px;
+}
+
+.goma1 {
+  margin: 0 auto;
+  position: relative;
+  width: 32px;
+  height: 33px;
+  bottom: 593px;
+  right: 205px;
+  border-radius: 100%;
+  border: 1px solid rgba(58, 10, 10, 0.199);
+  background: linear-gradient(to right, rgba(175, 33, 33, 0.788), rgba(197, 51, 51, 0.788));
+}
+
+.goma2 {
+  margin: 0 auto;
+  position: relative;
+  width: 32px;
+  height: 33px;
+  bottom: 633px;
+  left: 205px;
+  border-radius: 100%;
+  border: 2px solid rgba(58, 10, 10, 0.199);
+  background: linear-gradient(to right, rgba(175, 33, 33, 0.788), rgba(219, 55, 55, 0.788));
+}
+
+.goma3 {
+  margin: 0 auto;
+  position: relative;
+  width: 26px;
+  height: 27px;
+  bottom: 666px;
+  border-radius: 100%;
+  border: 1px solid rgba(58, 10, 10, 0.199);
+  background: linear-gradient(to right, rgba(175, 33, 33, 0.788), rgba(197, 51, 51, 0.788));
+}
+
+.goma4 {
+  margin: 0 auto;
+  position: relative;
+  width: 26px;
+  height: 27px;
+  bottom: 315px;
+  border-radius: 100%;
+  border: 1px solid rgba(58, 10, 10, 0.199);
+  background: linear-gradient(to right, rgba(175, 33, 33, 0.788), rgba(197, 51, 51, 0.788));
+  right: 205px;
+}
+
+.goma5 {
+  margin: 0 auto;
+  position: relative;
+  width: 26px;
+  height: 27px;
+  bottom: 345px;
+  border-radius: 100%;
+  border: 1px solid rgba(58, 10, 10, 0.199);
+  background: linear-gradient(to right, rgba(175, 33, 33, 0.788), rgba(197, 51, 51, 0.788));
+  left: 205px;
+}
+
+.union-visagra {
+  margin: auto;
+  width: 475px;
+  height: 14px;
+  display: flex;
+}
+
+.union-izq {
+  display: flex;
+  background-color: rgb(165, 16, 16);
+  width: 190px;
+  margin-left: 45px;
+  border-bottom: 3px solid rgba(117, 15, 15, 0.651);
+  border-right: 3px solid rgb(180, 180, 180);
+  position: relative;
+  z-index: 3;
+}  
+
+.union-der {
+  display: flex;
+  background-color: rgb(165, 16, 16);
+  width: 30px;
+  margin-left: 170px;
+  border-top: 1px solid rgba(24, 1, 1, 0.295);
+  border-bottom: 3px solid rgba(124, 15, 15, 0.651);
+  z-index: 3;
+}  
+  
+.visagra {
+  margin: auto;
+  width: 475px;
+  height: 60px;
+  position: relative;
+  z-index: 2;
+  bottom: 8px;
+  display: flex;
+  }
+
+  .visagra1 {
+    background: linear-gradient(to top,rgb(71, 3, 3),rgb(190, 18, 18), rgb(49, 0, 0));
+    width: 41px;
+    height: 60px;
+    border-radius: 25px 0px 0px 25px;
+    border: 1px solid rgb(71, 3, 3);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgba(131, 15, 15, 0.664);
+    border-right: 2px solid black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.596);
+  }
+
+  .visagra2 {
+    background: linear-gradient(to top,rgb(71, 3, 3),rgb(190, 18, 18), rgb(107, 11, 11));
+    width: 189px;
+    height: 60px;
+    border: 1px solid rgb(71, 3, 3);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgba(131, 15, 15, 0.664);
+    box-shadow: 0 0px 40px rgba(0, 0, 0, 0.596);
+  }
+
+  .visagra3 {
+    background: linear-gradient(to top,rgb(71, 3, 3),rgb(190, 18, 18), rgb(58, 3, 3));
+    width: 167px;
+    height: 60px;
+    border: 1px solid rgb(71, 3, 3);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgba(131, 15, 15, 0.664);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.596);
+    border-left: 3px solid rgba(0, 0, 0, 0.664);
+    border-right: 2px solid black;
+  }
+
+  .visagra4 {
+    background: linear-gradient(to top,rgb(71, 3, 3),rgb(190, 18, 18), rgb(107, 11, 11));
+    width: 30px;
+    height: 60px;
+    border: 1px solid rgb(71, 3, 3);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgba(131, 15, 15, 0.664);
+    box-shadow: 0 0px 40px rgba(0, 0, 0, 0.596);
+    border-right: 2px solid black;
+  }
+
+  .visagra5 {
+    background: linear-gradient(to top,rgb(71, 3, 3),rgb(190, 18, 18), rgb(49, 0, 0));
+    width: 32px;
+    height: 60px;
+    border-radius: 0px 25px 25px 0px;
+    border: 1px solid rgb(71, 3, 3);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgba(131, 15, 15, 0.664);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.596);
+  }
+  
+  .mitad-inferior {
+    background-color: rgb(190, 18, 18);
+    margin: auto;
+    width: 465px;
+    height: 430px;
+    position: relative;
+    z-index: 1;
+    border-radius: 15px 15px 35px 35px;
+    bottom: 30px;
+    border: 2.5px solid rgb(134, 0, 0);
+    border-bottom-color: 1px rgba(24, 1, 1, 0.788);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.623);
+  }
+  
